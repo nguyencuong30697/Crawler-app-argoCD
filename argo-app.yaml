@@ -35,3 +35,21 @@ spec:
       prune: true
       selfHeal: true
 
+# - - -
+# apiVersion: argoproj.io/v1alpha1
+# kind: Application
+# metadata:
+#   name: alb
+#   namespace: argocd
+# spec:
+#   destination:
+#     namespace: default
+#     server: https://kubernetes.default.svc 
+#   project: default 
+#   source: 
+#     path: alb
+#     repoURL: https://github.com/nguyencuong30697/Crawler-app-argoCD
+#   syncPolicy: 
+#     automated:
+#       prune: true
+#       selfHeal: true

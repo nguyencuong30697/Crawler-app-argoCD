@@ -13,7 +13,7 @@ spec:
         app: api
     spec:
       containers:
-      - image: 080196/crawler-api:v1
+      - image: 080196/crawler-api
         name: api
         ports:
         - containerPort: 3000
