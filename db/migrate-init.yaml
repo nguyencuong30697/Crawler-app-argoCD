@@ -5,7 +5,7 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "1"
 spec:
-  ttlSecondsAfterFinished: 20 #Delay time
+  # ttlSecondsAfterFinished: 20 #Delay time
   backoffLimit: 1
   template:
     metadata:
